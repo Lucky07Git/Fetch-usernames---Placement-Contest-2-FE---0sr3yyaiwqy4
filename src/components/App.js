@@ -3,6 +3,7 @@ import '../styles/App.css';
 import { useState, useEffect } from 'react';
 const App = () => {
 //code here 
+  function App() {
   const [name, setName] = useState("");
 
   useEffect(() => {
